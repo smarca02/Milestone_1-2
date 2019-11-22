@@ -10,8 +10,8 @@
     <header>
       <nav>
         <ul class="nav">
-          <li img src=""></li>
-          <li class="wines"><a href="#">wines</a></li>
+          <li img src="nonnovino_logo-BW.png"><a href="./index.html"></a></li>
+          <li class="wines"><a href="wines.thml">Wines</a></li>
           <li class="nchoice"><a href="#">nonno's choice</a></li>
           <li class="learnmore"><a href="#">learn more</a></li>
           <li class="events"><a href="#">events</a></li>
@@ -20,7 +20,7 @@
       </nav>
     </header>
 
-    <main></main>
+    <main>
     <div class="csgrape">
       <p>
         <img
@@ -28,6 +28,105 @@
           alt="customer service icon"
         />
       </p>
-    </div>
-  </body>
+            <h1>Rate our Service for your chance to WIN a bottle of Vino!</h1>
+            <h3>• Draws will be held monthly • Winners to be notified via email •</h3>
+        </div>
+            
+              <form action="csform.html" method="SEND">
+                <section class="personinfo">
+               <label for="personinfo"> FULL NAME</label>
+                <input type="text" name="personinfo" id="personinfo">
+                
+              
+              <label for="email">EMAIL</label>
+              <input type="text" name="email" id="email">
+              </section>
+                <div>
+                <label for="order_nr"> ORDER NUMBER</label>
+                <input type="text" name="order_nr" 
+                       id="order_nr">
+                </div>
+                </p>
+                   </section>
+                
+                <section class="overallservice">
+                  <span>OVERALL CUSTOMER SERVICE EXPERIENCE</span>
+                  <div>
+                    
+                   <table class="table table-responsive">
+                     <thead>
+                     <tr>
+                     <th></th>
+                     <th>Extremely Satisfied</th>
+                     <th>Satisfied</th>
+                     <th>Neutral</th>
+                     <th>Not Satisfied</th>
+                     <th>Extremely Dissatisfied</th>
+                     </tr>
+                    </thead>
+                     <tbody>
+                       <tr>
+                       <th class="radiotext">
+                          <label for="friendly">Friendliness</label>
+                         <td class="radio"><label><input type="radio" id='friendly' name="optradio"></label></td>
+                           <td class="radio"><label><input type="radio" id='friendly' name="optradio"></label></td>
+                             <td class="radio"><label><input type="radio" id='friendly' name="optradio"></label></td>
+                             <td class="radio"><label><input type="radio" id='friendly' name="optradio"></label></td>
+                               <td class="radio"><label><input type="radio" id='friendly' name="optradio"></label></td>
+                       </tr>
+                       <tr>
+                         <th class="radiotext"; text-aligh="center">
+                          <label for="knowledge">Knowledge</label>
+                         <td class="radio"><label><input type="radio" id="knowledge" name="optradio2"></label></td>
+                           <td class="radio"><label><input type="radio" id="knowledge" name="optradio2"></label></td>
+                             <td class="radio"><label><input type="radio" id="knowledge" name="optradio2"></label></td>
+                               <td class="radio"><label><input type="radio" id="knowledge" name="optradio2"></label></td>
+                                 <td class="radio"><label><input type="radio" id="knowledge" name="optradio2"></label></td>
+                       </tr>
+                       <tr>
+                         <th class="radiotext"; text-aligh="center">
+                          <label for="efficient">Service Efficiency</label>
+                         <td class="radio"><label><input type="radio" id='efficient' name="optradio3"></label></td>
+                           <td class="radio"><label><input type="radio" id='efficient' name="optradio3"></label></td>
+                             <td class="radio"><label><input type="radio" id='efficient' name="optradio3"></label></td>
+                               <td class="radio"><label><input type="radio" id='efficient' name="optradio3"></label></td>
+                                 <td class="radio"><label><input type="radio" id='efficient' name="optradio3"></label></td>
+                       </tr>
+                       </div>
+                     </td>
+                  </tbody>
+                </table> 
+              <br></br>
+                
+                </section>
+                <div>
+                <section class="recom">
+                  <label for="recom">Would you recommend us to a friend or colleague?</label>
+                   <input type="radio" name="recom" id='yes' value="yes">
+                   <label for="yes">Yes</label>
+                   <input type="radio" name="recom" id='no' value="no">
+                   <label for="no">No</label>
+                   <input type="radio" name="recom" id='maybe' value="maybe">
+                   <label for="maybe">Maybe</label>
+                </section>
+             
+             <section class="date">
+               <p>What day did you get in touch with our customer service?</p>
+               <input type="date" name="date">
+             </section>
+             
+             <section class="reason">
+               <p>Reason for contacting our Customer Service</p>
+               <textarea id="reason" name="reason"
+                 rows="10" cols="80">Write something here</textarea>
+             </section>
+                <div>
+             <section class="submission">
+               <input type="button" value="SEND">
+             </section> 
+               
+              </form>
+           
+          </body>
+         </main>
 </html>
